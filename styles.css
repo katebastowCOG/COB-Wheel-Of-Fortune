@@ -1,0 +1,86 @@
+.breadcrumb {
+  display: none;
+}
+
+#main {
+    padding: 0;
+ }
+
+#header{
+  display: none;
+}
+
+/* WHEEL STYLING */
+#wheelcontainer {
+width: 400px;
+height: 400px;
+margin: 0 auto;
+position: relative;
+}
+
+.wheel-heading {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2.4rem;
+color: #EFA9D2;
+}
+
+.wheel-para {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.2rem;
+color: #EFA9D2;
+}
+
+.display-wheel-prize, .display-end-message {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 300px;
+height: 100px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2rem;
+margin: 3vw auto;
+color: #EFA9D2;
+}
+
+.wheel-marker {
+position: absolute;
+width: 60px;
+left: 172px;
+top: -20px;
+z-index: 2;
+}
+
+.spin-wheel {
+width: 100%;
+height: 100%;
+}
+
+.wheel-button {
+position: absolute;
+width:100px;
+left: 150px;
+top: 150px;
+z-index: 2;
+cursor: pointer;
+}
+
+/* .button:hover {
+opacity: 0.8;
+} */
+
+.wheel-blur {
+animation: blur 5s;
+}
+
+@keyframes wheel-blur {
+0% {
+  filter: blur(0.5px);
+}
+80% {
+  filter: blur(1px);
+}
+100% {
+  filter: blur(0px);
+}
+}
